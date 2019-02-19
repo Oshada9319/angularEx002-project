@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularEx002-project';
+  routes = [
+    {linkName: 'Home', URL: 'home'},
+    {linkName: 'Settings', URL: 'settings'}
+  ];
 }
